@@ -1,0 +1,25 @@
+--cpu Cortex-M7.fp.dp
+"..\output\startup_stm32h7b0xx.o"
+"..\output\stm32h7xx_hal.o"
+"..\output\stm32h7xx_hal_cortex.o"
+"..\output\stm32h7xx_hal_dma.o"
+"..\output\stm32h7xx_hal_gpio.o"
+"..\output\stm32h7xx_hal_pwr.o"
+"..\output\stm32h7xx_hal_pwr_ex.o"
+"..\output\stm32h7xx_hal_rcc.o"
+"..\output\stm32h7xx_hal_rcc_ex.o"
+"..\output\stm32h7xx_hal_uart.o"
+"..\output\stm32h7xx_hal_uart_ex.o"
+"..\output\stm32h7xx_hal_usart.o"
+"..\output\stm32h7xx_hal_usart_ex.o"
+"..\output\delay.o"
+"..\output\sys.o"
+"..\output\main.o"
+"..\output\stm32h7xx_it.o"
+"..\output\system_stm32h7xx.o"
+"..\output\led.o"
+"..\output\beep.o"
+--strict --scatter "..\Output\beep_Template.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "..\Output\beep_Template.map" -o ..\Output\beep_Template.axf

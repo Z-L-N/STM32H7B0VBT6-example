@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.34.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 zyl, 1, LIC=VGXG8-39HNP-8TR3P-M3TSS-XVRYC-RH1JI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.34.0.0
+Toolchain Path:  D:\MDK5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.34.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.8.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\STM32H7B0VBT6_project\基于开发板的学习\基本例程\实验5 串口通信实验\HAL版本\v2.0\Projects\Template.uvprojx
+Project File Date:  09/01/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
+Build target 'Template'
+assembling startup_stm32h7b0xx.s...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_dma.c...
+compiling stm32h7xx_hal_uart.c...
+compiling stm32h7xx_it.c...
+..\User\stm32h7xx_it.c(189): warning:  #223-D: function "HAL_IncTick" declared implicitly
+    HAL_IncTick();
+..\User\stm32h7xx_it.c: 1 warning, 0 errors
+compiling stm32h7xx_hal_uart_ex.c...
+compiling stm32h7xx_hal_usart_ex.c...
+compiling stm32h7xx_hal_usart.c...
+compiling sys.c...
+compiling delay.c...
+compiling usart.c...
+compiling main.c...
+..\User\main.c(66): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(NULL != strstr(g_usart1_rx_buf, str2))
+..\User\main.c(66): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(NULL != strstr(g_usart1_rx_buf, str2))
+..\User\main.c(70): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(NULL != strstr(g_usart1_rx_buf, str1))
+..\User\main.c(70): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "const char *"
+  			if(NULL != strstr(g_usart1_rx_buf, str1))
+..\User\main.c(42): warning:  #177-D: variable "key"  was declared but never referenced
+  	uint8_t key;
+..\User\main.c: 5 warnings, 0 errors
+compiling system_stm32h7xx.c...
+compiling beep.c...
+compiling led.c...
+compiling key.c...
+linking...
+Program Size: Code=15540 RO-data=756 RW-data=32 ZI-data=1368  
+FromELF: creating hex file...
+"..\Output\USART1_BSP_Template.axf" - 0 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32H7xx_DFP.3.0.0.pack
+                Keil.STM32H7xx_DFP.3.0.0
+                STMicroelectronics STM32H7 Series Device Support and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\MDK5\Keil\STM32H7xx_DFP\3.0.0\Drivers\CMSIS\Device\ST\STM32H7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:02:44
+</pre>
+</body>
+</html>
